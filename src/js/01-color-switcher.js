@@ -9,7 +9,7 @@ function getRandomHexColor() {
 }
 
 bG.className = 'js-color';
-timerId = null;
+let timerId;
 
 const startBtn = document.querySelector('[data-start]');
 const stopBtn = document.querySelector('[data-stop]');
